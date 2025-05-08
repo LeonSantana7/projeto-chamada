@@ -1,0 +1,15 @@
+<div class="chamada-wrapper">
+    <div class="mb-3">
+        <label class="form-label" style="color: white;">Selecione uma turma:</label>
+        <app-select (turmaSelecionada)="onTurmaSelecionada($event)"></app-select>
+    </div>
+
+    <div>
+        <app-table *ngIf="turmaSelecionadaId" [turmaId]="turmaSelecionadaId"></app-table>
+    </div>
+
+
+    <div class="mt-3 text-end" *ngIf="turmaSelecionadaId">
+        <button class="btn btn-success" (click)="confirmarChamada()">Confirmar Chamada</button>
+    </div>
+</div>

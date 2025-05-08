@@ -1,0 +1,29 @@
+{
+    "turmas": [
+        {
+            "id": 1,
+            "nome": "6º A"
+        },
+        {
+            "id": 2,
+            "nome": "6º B"
+        }
+    ],
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Ana Beatriz",
+            "turmaId": 1
+        },
+        {
+            "id": 2,
+            "nome": "João Pedro",
+            "turmaId": 1
+        },
+        {
+            "id": 3,
+            "nome": "Luana Carvalho",
+            "turmaId": 1
+        }
+    ]
+}
